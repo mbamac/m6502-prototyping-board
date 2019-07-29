@@ -8424,7 +8424,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="NMI" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="IRQ" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="RDY" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="ROM-RDY" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="QG1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="XO-" device="14" package3d_urn="urn:adsk.eagle:package:12068/1"/>
 <part name="CLK-CTL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="R!W!-WE" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
@@ -8549,10 +8548,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="RDY" gate="G$1" x="20.32" y="127" smashed="yes">
 <attribute name="NAME" x="13.97" y="132.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="13.97" y="121.92" size="1.778" layer="96"/>
-</instance>
-<instance part="ROM-RDY" gate="G$1" x="213.36" y="68.58" smashed="yes">
-<attribute name="NAME" x="207.01" y="74.295" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.01" y="63.5" size="1.778" layer="96"/>
 </instance>
 <instance part="QG1" gate="G$1" x="58.42" y="144.78" smashed="yes">
 <attribute name="NAME" x="50.8" y="153.035" size="1.778" layer="95"/>
@@ -9520,12 +9515,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="-22.86" y="53.34" size="1.778" layer="95" xref="yes"/>
 <pinref part="SIG" gate="A" pin="1"/>
 </segment>
-<segment>
-<pinref part="ROM-RDY" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="71.12" x2="203.2" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="71.12" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
-<label x="203.2" y="86.36" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -9597,13 +9586,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="RDY" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="134.62" x2="10.16" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="129.54" x2="17.78" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="EEPROM" gate="G$1" pin="NC"/>
-<pinref part="ROM-RDY" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="68.58" x2="210.82" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
