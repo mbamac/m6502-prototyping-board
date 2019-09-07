@@ -2,6 +2,10 @@
 
 Prototyping board for 65c02 processor. Made with Eagle PCB 9.4.1
 
+## License
+
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 ## BOM
 required:
 * microprocessor W65C02S6TP - 1pcs
